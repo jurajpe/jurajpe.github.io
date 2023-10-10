@@ -4,6 +4,7 @@
     font-family: Righteous;
     border-radius: 0px;
     color: #FFFFFF;
+    font-size: small;
 }
 
 .col-xl-12 #accordion3 .card {
@@ -20,6 +21,7 @@
 .row .col-xl-6.col-lg-6.offset-md-0.col-md-6.offset-sm-0.col-sm-6.col-6 #accordion2 {
     text-align: center;
     font-family: Righteous;
+    font-size: small;
 }
 .row .col-xl-6.col-lg-6.col-md-6.col-sm-6.col-6 #accordion5 {
     text-align: center;
@@ -32,6 +34,7 @@
 .row .col-xl-6.col-lg-6.col-md-6.col-sm-6.col-6 #accordion7 {
     text-align: center;
     font-family: Righteous;
+    font-size: 0.8rem;
 }
 .col-xl-6.col-lg-6.offset-md-0.col-md-6.offset-sm-0.col-sm-6.col-6 #accordion2 .card {
     border-radius: 30px;
@@ -69,10 +72,6 @@
     font-family: Righteous;
 }
 .row .col-xl-6.col-lg-6.col-md-6.col-sm-6.col-6 #accordion4 {
-    text-align: center;
-    font-family: Righteous;
-}
-.row .col-xl-6.col-lg-6.offset-md-0.col-md-6.offset-sm-0.col-sm-6.col-6 #accordion11 {
     text-align: center;
     font-family: Righteous;
 }
