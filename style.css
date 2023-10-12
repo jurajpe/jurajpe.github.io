@@ -1,231 +1,64 @@
 @charset "utf-8";
-.row .col-xl-12 #accordion3 {
-    text-align: center;
+body {
     font-family: Righteous;
-    border-radius: 0px;
-    color: #FFFFFF;
-    font-size: small;
+    font-size: 0.7rem;
+    border-style: hidden;
+    background-image: url(images/WhatsApp%20Image%202023-10-03%20at%2018.39.35_21935d11.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.APCaccordion .card   {
+    background-color: rgba(0,0,0,1.00);
+    color: rgba(255,255,255,1.00);
+    border-radius: 25px;
+    border: 2px solid rgba(255,255,255,1.00);
 }
 
-.col-xl-12 #accordion3 .card {
-    border-radius: 30px;
-    background-color: #000000;
-    border-width: 2px;
-    border-color: #FFFFFF;
-}
 
-.row .col-xl-6.col-lg-6.col-md-6.col-sm-6.col-6 #accordion1 {
+h6 {
+    color: rgba(255,255,255,1.00);
     text-align: center;
-    font-family: Righteous;
-}
-.row .col-xl-6.col-lg-6.offset-md-0.col-md-6.offset-sm-0.col-sm-6.col-6 #accordion2 {
-    text-align: center;
-    font-family: Righteous;
-    font-size: small;
-}
-.row .col-xl-6.col-lg-6.col-md-6.col-sm-6.col-6 #accordion5 {
-    text-align: center;
-    font-family: Righteous;
-}
-.row .col-xl-6.col-lg-6.offset-md-0.col-md-6.offset-sm-0.col-sm-6.col-6 #accordion6 {
-    text-align: center;
-    font-family: Righteous;
-}
-.row .col-xl-6.col-lg-6.col-md-6.col-sm-6.col-6 #accordion7 {
-    text-align: center;
-    font-family: Righteous;
     font-size: 0.8rem;
 }
-.col-xl-6.col-lg-6.offset-md-0.col-md-6.offset-sm-0.col-sm-6.col-6 #accordion2 .card {
-    border-radius: 30px;
-    background-color: #000000;
-	border-width: 2px;
-    border-color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 420px){
 }
-.col-xl-6.col-lg-6.offset-md-0.col-md-6.offset-sm-0.col-sm-6.col-6 #accordion2 .card {
-    border-radius: 30px;
-}
-.col-xl-6.col-lg-6.col-md-6.col-sm-6.col-6 #accordion1 .card {
-    border-radius: 30px;
-    background-color: #000000;
-	border-width: 2px;
-    border-color: #FFFFFF;
-}
-.col-xl-6.col-lg-6.offset-md-0.col-md-6.offset-sm-0.col-sm-6.col-6 #accordion11 .card {
-    background-color: rgba(255,255,255,0.00);
-}
-.col-xl-6.col-lg-6.col-md-6.col-sm-6.col-6 #accordion4 .card {
-    background-color: rgba(255,255,255,0.00);
-    box-shadow: 0px 0px;
-}
-.row .col-xl-6.col-lg-6.offset-md-0.col-md-6.offset-sm-0.col-sm-6.col-6 #accordion8 {
+
+@media (min-width:370px){
+.APCtext {
     text-align: center;
-    font-family: Righteous;
-    border-color: rgba(0,0,0,0.00);
-}
-.row .col-xl-6.col-lg-6.col-md-6.col-sm-6.col-6 #accordion9 {
-    text-align: center;
-    font-family: Righteous;
-}
-.row .col-xl-6.col-lg-6.offset-md-0.col-md-6.offset-sm-0.col-sm-6.col-6 #accordion10 {
-    text-align: center;
-    font-family: Righteous;
-}
-.row .col-xl-6.col-lg-6.col-md-6.col-sm-6.col-6 #accordion4 {
-    text-align: center;
-    font-family: Righteous;
-}
-#headingOne2 .mb-0 a {
     color: rgba(255,255,255,1.00);
+    padding-right: 15px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-top: 3px;
 }
-#collapseOne1 .card-body a {
-    color: rgba(255,255,255,1.00);
-}
-#collapseOne1 .card-body a {
-    color: rgba(255,255,255,1.00);
-}
-.col-xl-6.col-lg-6.offset-md-0.col-md-6.offset-sm-0.col-sm-6.col-6 #accordion6 .card {
-    border-radius: 30px;
-    background-color: rgba(0,0,0,1.00);
-    border-width: 2px;
-    border-color: rgba(255,255,255,1.00);
-}
-.col-xl-6.col-lg-6.col-md-6.col-sm-6.col-6 #accordion5 .card {
-    border-radius: 30px;
-    background-color: rgba(0,0,0,1.00);
-    border-width: 2px;
-    border-color: rgba(255,255,255,1.00);
-}
-#headingOne5 .mb-0 a {
-
-}
-.col-xl-6.col-lg-6.col-md-6.col-sm-6.col-6 #accordion7 .card {
-    color: rgba(255,255,255,1.00);
-    border-radius: 30px;
-    background-color: rgba(0,0,0,1.00);
-    border-width: 2px;
-    border-color: rgba(255,255,255,1.00);
-}
-#headingOne7 .mb-0 a {
-    color: rgba(255,255,255,1.00);
-}
-#headingOne5 .mb-0 a {
-    color: rgba(255,255,255,1.00);
-}
-#collapseOne7 .card-body a {
-    color: rgba(255,255,255,1.00);
-}
-.col-xl-6.col-lg-6.offset-md-0.col-md-6.offset-sm-0.col-sm-6.col-6 #accordion8 .card {
-    border-radius: 30px;
-    background-color: rgba(0,0,0,1.00);
-    border-width: 2px;
-    border-color: rgba(255,255,255,1.00);
-}
-#collapseOne5 .card-body a {
-    color: rgba(255,255,255,1.00);
-}
-.col-xl-6.col-lg-6.col-md-6.col-sm-6.col-6 #accordion9 .card {
-    color: rgba(255,255,255,1.00);
-    background-color: rgba(0,0,0,1.00);
-    border-radius: 30px;
-    border-width: 2px;
-    border-color: rgba(255,255,255,1.00);
-}
-#headingOne1 .mb-0 a {
-    color: rgba(255,255,255,1.00);
-}
-.col-xl-12 #accordion12 .card {
-    background-color: rgba(0,0,0,1.00);
-    border-radius: 30px;
-    border-width: 2px;
-    border-color: rgba(255,255,255,1.00);
-}
-.col-xl-12 #accordion13 .card {
-    background-color: rgba(0,0,0,1.00);
-    border-radius: 30px;
-    border-width: 2px;
-    border-color: rgba(255,255,255,1.00);
-}
-.col-xl-12 #accordion14 .card {
-    background-color: rgba(0,0,0,1.00);
-    border-radius: 30px;
-    border-width: 2px;
-    border-color: rgba(255,255,255,1.00);
-}
-
-
-
-#headingOne9 .mb-0 a {
-    color: rgba(255,255,255,1.00);
-}
-.col-xl-6.col-lg-6.offset-md-0.col-md-6.offset-sm-0.col-sm-6.col-6 #accordion10 .card {
-    color: rgba(0,0,0,1.00);
-    border-width: 2px;
-    border-color: rgba(255,255,255,1.00);
-}
-.col-xl-6.col-lg-6.offset-md-0.col-md-6.offset-sm-0.col-sm-6.col-6 #accordion10 .card {
-    color: rgba(255,255,255,1.00);
-    border-width: 2px;
-    border-color: rgba(255,255,255,1.00);
-    border-radius: 30px;
-    background-color: rgba(0,0,0,1.00);
-}
-#headingOne10 .mb-0 a {
-    color: rgba(255,255,255,1.00);
-}
-.offset-xl-0.col-xl-12 a .img-fluid {
-
-
-
-}
-.container-fluid .container a {
-    text-align: center;
-}
-.col-xl-12 a .img-fluid {
-    float: none;
-}
-.logo {
-    margin-left: auto;
+.APCbutton {
     margin-right: auto;
-}
-.col-xl-6.col-lg-6.col-md-6.col-sm-6.col-6 a #X {
     margin-left: auto;
-    margin-right: auto;
     display: block;
 }
+.APCwidget {
+    font-size: 2px;
+}
 
-.col-xl-12.logo a .img-fluid {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-.pulselogo {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-.container-fluid .container .container-fluid {
-    background-color: rgba(0,0,0,1.00);
-    border-radius: 30px;
-    border-width: 2px;
-    border-color: rgba(255,255,255,1.00);
-}
-.container-fluid .container .container-fluid {
-    border-width: 2px;
-    border-color: rgba(255,255,255,1.00);
-    height: 60px;
-}
-.container-fluid {
-    background-color: rgba(0,0,0,1.00);
-    background-image: url(images/WhatsApp%20Image%202023-10-03%20at%2018.39.35_21935d11.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center center;
-}
-.col-xl-6.col-lg-6.offset-md-0.col-md-6.offset-sm-0.col-sm-6.col-6 a #Insta {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+
+
+
+
+
+
 }

@@ -1,2 +1,0 @@
-<script src="https://widgets.coingecko.com/coingecko-coin-converter-widget.js"></script>
-<coingecko-coin-converter-widget  coin-id="apin-pulse" currency="usd" background-color="#000000" font-color="#ffffff" locale="en"></coingecko-coin-converter-widget>

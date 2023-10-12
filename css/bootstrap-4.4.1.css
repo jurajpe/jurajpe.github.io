@@ -38,14 +38,16 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    border-style: hidden;
 }
 
 html {
-    font-family: Righteous;
+    font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    border-style: hidden;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -54,13 +56,14 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
     margin: 0;
-    font-family: Righteous;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
     text-align: left;
     background-color: #fff;
+    border-style: hidden;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -153,9 +156,9 @@ sup {
 }
 
 a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: transparent;
 }
 
 a:hover {
@@ -169,9 +172,8 @@ a:not([href]) {
 }
 
 a:not([href]):hover {
-    color: #FFFFFF;
-    text-decoration: none;
-    text-align: center;
+  color: inherit;
+  text-decoration: none;
 }
 
 pre,
@@ -575,11 +577,12 @@ pre code {
 }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: hidden;
 }
 
 @media (min-width: 576px) {
@@ -1549,7 +1552,6 @@ pre code {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
-    text-align: center;
   }
   .col-xl-5 {
     -ms-flex: 0 0 41.666667%;
@@ -1560,7 +1562,6 @@ pre code {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
-    font-family: Righteous;
   }
   .col-xl-7 {
     -ms-flex: 0 0 58.333333%;
@@ -4757,12 +4758,10 @@ input[type="button"].btn-block {
 }
 
 .card-body {
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    min-height: 1px;
-    padding: 1.25rem;
-    text-align: center;
-    color: #FFFFFF;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
 }
 
 .card-title {
@@ -8121,8 +8120,7 @@ button.bg-dark:focus {
 
 .mb-0,
 .my-0 {
-    margin-bottom: 0 !important;
-    font-size: 1.25rem;
+  margin-bottom: 0 !important;
 }
 
 .ml-0,
@@ -10228,8 +10226,5 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-@media (min-width : 420px ){
-}
-
-@media (min-width : 360px ){
+@media (min-width: 370px){
 }
