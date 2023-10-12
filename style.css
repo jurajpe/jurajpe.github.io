@@ -22,6 +22,12 @@ h6 {
     text-align: center;
     font-size: 0.8rem;
 }
+.APCbuttonsmall4 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 
 
 
@@ -76,4 +82,13 @@ h6 {
 }
 
 @media (max-width:340px){
+}
+
+@media (min-width: 340px){
+}
+
+@media (min-width:340px){
+}
+
+@media (min-width:340px){
 }
