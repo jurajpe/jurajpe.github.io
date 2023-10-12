@@ -72,3 +72,8 @@ h6 {
 .APCwidget {
     font-size: 2px;
 	}
+@media (min-width:370px){
+}
+
+@media (max-width:340px){
+}
