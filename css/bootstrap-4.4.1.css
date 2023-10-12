@@ -10230,4 +10230,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 @media (min-width: 340px){
+.APCtextsmall {
+    text-align: center;
+}
+
 }
