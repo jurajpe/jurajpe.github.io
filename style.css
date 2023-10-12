@@ -16,8 +16,6 @@ body {
     border: 2px solid rgba(255,255,255,1.00);
     text-align: center;
 }
-
-
 h6 {
     color: rgba(255,255,255,1.00);
     text-align: center;
@@ -34,26 +32,6 @@ h6 {
     padding-bottom: 3px;
     padding-left: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 420px){
-
-}
-
-@media (min-width:370px){
 .APCtext {
     text-align: center;
     color: rgba(255,255,255,1.00);
@@ -62,17 +40,12 @@ h6 {
     padding-left: 15px;
     padding-top: 3px;
 }
-
 .APCtextsmall {
     padding-top: 3px;
     padding-right: 15px;
     padding-bottom: 3px;
     padding-left: 15px;
 }
-
-
-
-
 .APCbutton {
     margin-right: auto;
     margin-left: auto;
@@ -81,8 +54,6 @@ h6 {
 .APCwidget {
     font-size: 2px;
 }
-
-@media (min-width:340px){
 .APCtext {
     text-align: center;
     color: rgba(255,255,255,1.00);
@@ -96,32 +67,26 @@ h6 {
     margin-left: auto;
     display: block;
 }
-.APCwidget {
-    font-size: 2px;
-	}
+
+@media (min-width:420px){
+}
 @media (min-width:370px){
 }
-
+@media (min-width:340px){
+}
+@media (min-width:370px){
+}
 @media (max-width:340px){
 }
-
-@media (min-width: 340px){
-}
-
 @media (min-width:340px){
 }
-
 @media (min-width:340px){
 }
-
 @media (min-width:340px){
 }
-
 @media (min-width:340px){
 }
-
 @media (min-width:340px){
 }
-
-@media screen and (min-width:340px){
-}
+@media (min-width:340px){
+	}
