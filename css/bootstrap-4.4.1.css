@@ -552,6 +552,7 @@ pre code {
   margin-left: auto;
 }
 
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -10230,8 +10231,4 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 @media (min-width: 340px){
-.APCtextsmall {
-    text-align: center;
-}
-
 }
