@@ -55,10 +55,20 @@ h6 {
     font-size: 2px;
 }
 
-
-
-
-
-
-
+@media (min-width:340px){
+.APCtext {
+    text-align: center;
+    color: rgba(255,255,255,1.00);
+    padding-right: 15px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-top: 3px;
 }
+.APCbutton {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.APCwidget {
+    font-size: 2px;
+	}
